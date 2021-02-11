@@ -1,14 +1,12 @@
 import React from 'react';
-import Webs from "./Webs";
-import Games from "./Games";
+import Proyects from "./Proyects";
 import AboutMe from "./AboutMe";
 
 const Sections = () => {
 
     return(
         <div className="sections">
-            <Webs/>
-            <Games/>
+            <Proyects/>
             <AboutMe/>
         </div>
     )

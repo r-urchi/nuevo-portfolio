@@ -113,4 +113,67 @@
   text-align: center;
 }
 
+.proyects-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.proyects-container .proyect {
+  width: 10em;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+  padding: 2em;
+}
+.proyects-container .proyect img {
+  width: 8em;
+  border-radius: 0.5em;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #222733;
+  color: #DBE8D4;
+}
+.footer .contact {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contact a {
+  width: 3em;
+  height: 3em;
+  text-decoration: none;
+  background: #DBE8D4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+}
+.footer .contact a i {
+  font-size: 1.5em;
+  color: #222733;
+  padding: 1em;
+}
+.footer .contact a:hover {
+  background: #73CCA8;
+}
+.footer p {
+  color: #525e65;
+  margin: 2em 0;
+}
+
 /*# sourceMappingURL=main.css.map */
