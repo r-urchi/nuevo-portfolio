@@ -4,8 +4,7 @@ const Navbar = () =>{
 
     const [links, setLinks] = useState([
         {name: 'Inicio', url: '/'}, 
-        {name: 'Web', url: 'web'}, 
-        {name: 'Juegos', url: 'games'}, 
+        {name: 'Proyectos', url: 'proyects'}, 
         {name: 'Sobre mí', url: 'about'},
         {name: 'CV', url: 'cv'}
     ])

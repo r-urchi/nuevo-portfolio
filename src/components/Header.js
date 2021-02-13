@@ -3,13 +3,13 @@ import React from 'react';
 const Header = () => {
 
     return(
-        <div className="header">
+        <div className="header" id="/">
             <div className="header__container">
                 <h1>RAMÓN URCHIPIA</h1>
                 <h3>FRONT-END DEVELOPER</h3>
 
                 <div className="container-img">
-                    <img src="#"/>
+                    <img src="img/ramon.jpg"/>
                 </div>
 
                 <div className="container-p">

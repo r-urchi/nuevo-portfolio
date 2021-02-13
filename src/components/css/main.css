@@ -14,6 +14,7 @@
   align-items: center;
   background: #525e65;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  position: fixed;
   z-index: 100;
 }
 .navbar li {
@@ -37,6 +38,7 @@
   align-items: center;
   background: #222733;
   color: #DBE8D4;
+  padding-top: 3em;
 }
 .header .header__container {
   width: 65%;
@@ -60,11 +62,15 @@
 .header .header__container .container-img {
   width: 10em;
   height: 10em;
-  background: #000;
+  background: #73CCA8;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header .header__container .container-img img {
+  width: 97%;
+  border-radius: 50%;
 }
 .header .header__container .container-p {
   width: 70%;
@@ -122,18 +128,36 @@
   flex-wrap: wrap;
 }
 .proyects-container .proyect {
-  width: 10em;
+  width: 15em;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 1em;
-  padding: 2em;
+  overflow: hidden;
+}
+.proyects-container .proyect p {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 0.5em 0;
 }
 .proyects-container .proyect img {
-  width: 8em;
+  width: 100%;
   border-radius: 0.5em;
+  transition: 0.3s all ease;
+}
+.proyects-container .proyect img:hover {
+  transform: scale(1.1);
+}
+.proyects-container .proyect a {
+  text-decoration: none;
+  color: #DBE8D4;
+}
+.proyects-container .proyect a:hover {
+  text-decoration: underline;
+  color: #73CCA8;
 }
 
 .footer {
