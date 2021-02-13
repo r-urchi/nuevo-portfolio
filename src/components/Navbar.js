@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Navbar = () =>{
 
     const [links, setLinks] = useState([
-        {name: 'Inicio', url: '/'}, 
+        {name: 'Inicio', url: ''}, 
         {name: 'Proyectos', url: 'proyects'}, 
         {name: 'Sobre mí', url: 'about'},
         {name: 'CV', url: 'cv'}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Route } from "react-router-dom";
 
 const Proyects = () => {
 
@@ -57,12 +58,12 @@ const Proyects = () => {
         <div className="section-container" id="proyects">
             <h2>PROYECTOS</h2>
             <span></span>
-            <p>Algunas webs que desarrolle hasta ahora</p>
+            <p>Algunos proyectos que desarrolle hasta ahora</p>
 
             <div className="languages-icons">
                 {languages.map((icon, i) => {
                     return(
-                        <i key={i} class={icon.icon}></i>
+                        <i key={i} className={icon.icon}></i>
                     )
                 })}
             </div>
