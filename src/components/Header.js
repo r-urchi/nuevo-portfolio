@@ -4,6 +4,7 @@ const Header = () => {
 
     return(
         <div className="header" id="/">
+            <div className="circle-up"></div>
             <div className="header__container">
                 <h1>RAMÓN URCHIPIA</h1>
                 <h3>FRONT-END DEVELOPER</h3>

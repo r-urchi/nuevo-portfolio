@@ -11,6 +11,7 @@ const Footer = () => {
 
     return(
         <div className="footer">
+            <div className="footer__border"></div>
             <div className="contact">
                 {contact.map((cont, i) => {
                     return(<a key={i} target="_blank" href={cont.url}><i className={cont.icon}></i></a>)
