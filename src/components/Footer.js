@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ProviderContext } from '../context/Context';
 
 const Footer = () => {
 
-    const [contact, setContact ] = useState([
-        {icon: 'fab fa-github', url: 'https://github.com/r-urchi'}, 
-        {icon: 'fas fa-mobile-alt', url: 'https://api.whatsapp.com/send?text=&phone=541168515480'}, 
-        {icon: 'far fa-envelope', url: 'mailto:ramonurchipia@gmail.com'}, 
-        {icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/ramonurchipia/'}
-    ])
+    const { contact } = useContext(ProviderContext)
 
     return(
         <div className="footer">

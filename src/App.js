@@ -5,15 +5,19 @@ import Header from "./components/Header";
 import Sections from "./components/Sections";
 import Footer from "./components/Footer";
 import Cv from "./components/Cv";
+import ContextProvider from './context/Context';
+
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar/>
-      <Header/>
-      <Sections/>
-      <Cv/>
-      <Footer/>
+      <ContextProvider>
+        <Navbar/>
+        <Header/>
+        <Sections/>
+        <Cv/>
+        <Footer/>
+      </ContextProvider>  
     </div>
   );
 }

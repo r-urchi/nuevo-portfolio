@@ -15,7 +15,7 @@ const Cv = () => {
                 <h2>FORMACIÓN</h2>
                 <span></span>
 
-                <div class="cv__education">
+                <div className="cv__education">
                     <h4 >2021 - Coderhouse - Diseño UX/UI</h4>
                     <p>Trabajando con herramientas de prototipado.</p>
 
@@ -30,7 +30,7 @@ const Cv = () => {
                 <h2>EXPERIENCIA</h2>
                 <span></span>
 
-                <div class="cv__experience">
+                <div className="cv__experience">
                     <h4>2019 - Actualidad - Freelance</h4>
                     <p>En la actualidad ofrezco mis servicios como programador web. También comparto esta actividad con el desarrollo de algunos proyectos propios.</p>
                 </div>
@@ -38,7 +38,7 @@ const Cv = () => {
                 <h2>SKILLS</h2>
                 <span></span>
 
-                <div class="cv__list">
+                <div className="cv__list">
                     <h4>Lenguajes</h4>
                     <ul className="list">
                         <li>HTML / HTML5</li>
@@ -47,7 +47,7 @@ const Cv = () => {
                     </ul>
                 </div>
 
-                <div class="cv__list">
+                <div className="cv__list">
                     <h4>Frameworks y Procesadores</h4>
                     <ul className="list">
                         <li>REACT</li>
@@ -57,7 +57,7 @@ const Cv = () => {
                 </div>
 
                 
-                <div class="cv__list">
+                <div className="cv__list">
                     <h4>Otros</h4>
                     <ul className="list">
                         <li>GIT</li>

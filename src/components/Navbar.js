@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ProviderContext } from '../context/Context';
 
 const Navbar = () =>{
 
-    const [links, setLinks] = useState([
-        {name: 'Inicio', url: ''}, 
-        {name: 'Proyectos', url: 'proyects'}, 
-        {name: 'Sobre mí', url: 'about'},
-        {name: 'CV', url: 'cv'}
-    ])
+    const { links } = useContext(ProviderContext)
 
     return(
         <div className="navbar">
