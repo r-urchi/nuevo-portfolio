@@ -27,13 +27,13 @@ const Cv = () => {
                 </div>
 
 
-                <h2>EXPERIENCIA</h2>
+                {/* <h2>EXPERIENCIA</h2>
                 <span></span>
 
                 <div className="cv__experience">
                     <h4>2019 - Actualidad - Freelance</h4>
                     <p>En la actualidad ofrezco mis servicios como programador web. También comparto esta actividad con el desarrollo de algunos proyectos propios.</p>
-                </div>
+                </div> */}
 
                 <h2>SKILLS</h2>
                 <span></span>
