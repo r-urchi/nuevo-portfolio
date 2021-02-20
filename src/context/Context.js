@@ -56,7 +56,7 @@ const ContextProvider = ({children}) => {
                                               img: 'img/ppt.jpg', 
                                               languages: 'HTML, SASS, JS',
                                               code: 'https://github.com/r-urchi/PPT'},
-                                              {name: 'Mi Portfolio', 
+                                              {name: 'Mi anterior Portfolio', 
                                               url: 'https://ramon-urchipia.netlify.app/', 
                                               img: 'img/portfolio.jpg', 
                                               languages: 'HTML, SASS, JS',

@@ -64,7 +64,7 @@ html {
 .header .header__container h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 200;
-  font-size: 5.5em;
+  font-size: 4.5em;
   z-index: 91;
 }
 .header .header__container h3 {
@@ -326,6 +326,58 @@ html {
 .footer p {
   color: #DBE8D4;
   margin: 2em 0;
+}
+
+@media screen and (max-width: 900px) {
+  .header .header__container h1 {
+    font-size: 3.5em;
+  }
+
+  .header .header__container, .sections .section-container, .cv .cv-container {
+    width: 85%;
+  }
+
+  .header .header__container .container-p, .sections .section-container p {
+    width: 90%;
+  }
+
+  .languages-icons i {
+    font-size: 3.5em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar li {
+    padding: 0 0.5em;
+  }
+
+  .header .circle-up {
+    height: 25em;
+  }
+
+  .header .header__container h1 {
+    font-size: 1.95em;
+  }
+
+  .header .header__container .container-img {
+    width: 8em;
+    height: 8em;
+  }
+
+  .header .header__container .container-p p, #about p {
+    font-size: 1.1em;
+  }
+
+  .languages-icons i {
+    font-size: 2.5em;
+  }
+
+  .cv .cv-container h5 {
+    font-size: 1.9em;
+  }
+
+  .cv .cv__education h4, .cv .cv__experience h4, .cv .cv__list h4 {
+    font-size: 1em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

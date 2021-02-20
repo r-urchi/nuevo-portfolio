@@ -16,10 +16,12 @@ const Cv = () => {
                 <span></span>
 
                 <div className="cv__education">
-                    <h4 >2021 - Coderhouse - Diseño UX/UI</h4>
+                    <h4 >Diseño UX/UI</h4>
+                    <h4 >2021 - Coderhouse</h4>
                     <p>Trabajando con herramientas de prototipado.</p>
 
-                    <h4>2020 - Coderhouse - Desarrollo Web Front-End</h4>
+                    <h4>Desarrollo Web Front-End</h4>
+                    <h4>2020 - Coderhouse</h4>
                     <p>Desarrollo Web, trabajando con HTML y CSS. Programando con JavaScript y React Js.</p>
 
                     <h4>2018 - Autodidacta</h4>
