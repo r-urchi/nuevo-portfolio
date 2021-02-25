@@ -27,7 +27,7 @@ const ContextProvider = ({children}) => {
                                               languages: 'REACT, SASS, FIREBASE',
                                               code: 'https://github.com/r-vudama/proyectoEC'},
                                               {name: 'Carrito de compras', 
-                                              url: 'https://carrito-epi.netlify.app/', 
+                                              url: 'https://js-epi.netlify.app/', 
                                               img: 'img/carrito.jpg', 
                                               languages: 'HTML, SASS, JS, JSON',
                                               code: 'https://github.com/r-urchi/carrito-de-compras'},
