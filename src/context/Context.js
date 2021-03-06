@@ -21,6 +21,11 @@ const ContextProvider = ({children}) => {
   //--- Info Proyectos
   // -------------------------------------------
   const [proyects, setProyects] = useState([
+                                              {name: 'ClimApp', 
+                                              url: 'https://climapp-ru.netlify.app/', 
+                                              img: 'img/climapp.jpg', 
+                                              languages: 'REACT, SASS, API',
+                                              code: 'https://github.com/r-urchi/Clima-App'},
                                               {name: 'Retro Games', 
                                               url: 'https://retrogames-ru.netlify.app/', 
                                               img: 'img/retrogames.jpg', 
