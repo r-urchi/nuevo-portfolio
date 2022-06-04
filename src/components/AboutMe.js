@@ -6,11 +6,12 @@ const AboutMe = () => {
         <div className="section-container" id="about">
             <h2>SOBRE MÍ</h2>
             <span></span>
-            <p>Vivo en Capital Federal, estoy comenzando algunos proyectos como desarrollador freelance. Mi principal objetivo es convertir el desarrollo como trabajo de tiempo completo. <br/>
-            Comencé a aprender sobre desarrollo como autodidacta en 2019. <br/> En 2020 me inscribí en la carrera de Desarrollador Front End en Coderhouse, donde tuve la oportunidad de reforzar conocimientos en Desarrollo Web utilizando HTML, Css, Sass, Git, Github. <br/> 
-            Luego en el curso de JavaScript, y finalmente con el de React. Todos los proyectos que fui desarrollando en estos cursos se pueden encontrar en mi portfolio.<br/>
-            Actualmente estoy realizando el curso de Diseño UX / UI, utilizando herramientas de diseño, principalmente Figma. <br/>
-            En poco tiempo voy a estar comenzando con Back-End, donde voy a estar aprendiendo sobre Node.js. </p>
+            <p>Vivo en General Villegas, Provincia de Buenos Aires. Me gusta la tecnología, la música y los videojuegos retro. 💻 🎸 🕹️   <br/>
+            Desde hace algunos años me dedico al desarrollo web. Actualmente me encuentro trabajando como Desarrollador Front-End para Accenture Song. <br/>
+            Gracias a eso tuve la oportunidad de trabajar en proyectos para importantes marcas como 
+            <a href="https://shop.dior.com.ar/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#DBE8D4'}}><b> Dior</b></a>,  
+            <a href="https://www.tucciweb.com/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#DBE8D4'}}><b> Tucci</b></a>,  
+            <a href="https://www.bensimon.com.ar/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#DBE8D4'}}><b> Bensimon</b></a>, entre otras. </p>
         </div>
     )
 }
