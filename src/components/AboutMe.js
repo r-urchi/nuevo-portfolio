@@ -9,9 +9,9 @@ const AboutMe = () => {
             <p>Vivo en General Villegas, Provincia de Buenos Aires. Me gusta la tecnología, la música y los videojuegos retro. 💻 🎸 🕹️   <br/>
             Desde hace algunos años me dedico al desarrollo web. Actualmente me encuentro trabajando como Desarrollador Front-End para Accenture Song. <br/>
             Gracias a eso tuve la oportunidad de trabajar en proyectos para importantes marcas como 
-            <a href="https://shop.dior.com.ar/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#DBE8D4'}}><b> Dior</b></a>,  
-            <a href="https://www.tucciweb.com/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#DBE8D4'}}><b> Tucci</b></a>,  
-            <a href="https://www.bensimon.com.ar/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#DBE8D4'}}><b> Bensimon</b></a>, entre otras. </p>
+            <a href="https://shop.dior.com.ar/" target="_blank" rel="noreferrer"><b> Dior</b></a>,  
+            <a href="https://www.tucciweb.com/" target="_blank" rel="noreferrer"><b> Tucci</b></a>,  
+            <a href="https://www.bensimon.com.ar/" target="_blank" rel="noreferrer"><b> Bensimon</b></a>, entre otras. </p>
         </div>
     )
 }

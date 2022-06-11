@@ -2,8 +2,9 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 button,
@@ -34,14 +35,17 @@ html {
   position: fixed;
   z-index: 100;
 }
+
 .navbar li {
   list-style: none;
   padding: 0 1.2em;
 }
+
 .navbar li a {
   text-decoration: none;
   color: #DBE8D4;
 }
+
 .navbar li a:hover {
   text-decoration: underline;
   color: #73CCA8;
@@ -68,6 +72,7 @@ html {
   padding-top: 3em;
   overflow: hidden;
 }
+
 .header .header__container {
   width: 65%;
   height: 100%;
@@ -86,18 +91,21 @@ html {
   flex-direction: column;
   padding: 3em 0;
 }
+
 .header .header__container h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 200;
   font-size: 4.5em;
   z-index: 91;
 }
+
 .header .header__container h3 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   padding: 1em 0;
   z-index: 91;
 }
+
 .header .header__container .container-img {
   width: 10em;
   height: 10em;
@@ -115,19 +123,23 @@ html {
   z-index: 91;
   margin-top: 3em;
 }
+
 .header .header__container .container-img img {
   width: 97%;
   border-radius: 50%;
 }
+
 .header .header__container .container-p {
   width: 70%;
   padding: 2em 0;
 }
+
 .header .header__container .container-p p {
   font-size: 1.2em;
   font-weight: 300;
   padding: 1em;
 }
+
 .header .circle-up {
   position: absolute;
   width: 100%;
@@ -159,6 +171,7 @@ html {
   background: #222733;
   color: #DBE8D4;
 }
+
 .sections .section-container {
   width: 65%;
   height: 100%;
@@ -177,22 +190,29 @@ html {
   flex-direction: column;
   padding: 3em 0;
 }
+
 .sections .section-container h2, .sections .section-container p {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
-  padding: 2em 0;
+  padding: 2em 0 1em 0;
 }
+
 .sections .section-container span {
   height: 0.3em;
   width: 16em;
   background: #525e65;
 }
+
 .sections .section-container p {
   width: 65%;
   font-size: 1.2em;
   font-weight: 300;
   padding: 1em;
   text-align: center;
+}
+
+.sections .section-container h2 {
+  font-size: 2em;
 }
 
 .proyects-container {
@@ -210,6 +230,7 @@ html {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
 .proyects-container .proyect {
   width: 15em;
   height: 100%;
@@ -229,28 +250,31 @@ html {
   margin: 1em;
   overflow: hidden;
 }
+
 .proyects-container .proyect p {
   width: 100%;
   font-size: 1.2em;
   font-weight: 400;
   padding: 0.5em 0;
 }
+
 .proyects-container .proyect img {
   width: 100%;
   border-radius: 0.5em;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
 }
+
 .proyects-container .proyect img:hover {
   -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 .proyects-container .proyect a {
   text-decoration: none;
   color: #DBE8D4;
 }
+
 .proyects-container .proyect a:hover {
   text-decoration: underline;
   color: #73CCA8;
@@ -269,6 +293,7 @@ html {
   width: 100%;
   height: 100%;
 }
+
 .languages-icons i {
   font-size: 5em;
   padding: 0.2em;
@@ -279,6 +304,11 @@ html {
   font-size: 1.2em;
   margin: 2em 0;
   line-height: 1.5;
+}
+
+#about p a {
+  text-decoration: none;
+  color: #DBE8D4;
 }
 
 .cv {
@@ -301,18 +331,21 @@ html {
   color: #DBE8D4;
   padding-top: 2em;
 }
+
 .cv h2 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   padding: 2em;
   text-align: center;
 }
+
 .cv span {
   height: 0.3em;
   width: 16em;
   background: #525e65;
   margin-bottom: 3em;
 }
+
 .cv .cv-container {
   width: 65%;
   height: 100%;
@@ -331,28 +364,33 @@ html {
   flex-direction: column;
   padding: 3em 0;
 }
+
 .cv .cv-container h5 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 200;
   font-size: 2.5em;
 }
+
 .cv .cv-container h3 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   padding: 1em 0;
 }
+
 .cv .cv-container h2, .cv .cv-container p {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   padding: 2em;
   text-align: center;
 }
+
 .cv .cv-container span {
   height: 0.3em;
   width: 16em;
   background: #525e65;
   margin-bottom: 3em;
 }
+
 .cv .cv__education, .cv .cv__experience, .cv .cv__list {
   width: 100%;
   height: 100%;
@@ -371,6 +409,7 @@ html {
   flex-direction: column;
   margin: 1em 0;
 }
+
 .cv .cv__education h4, .cv .cv__experience h4, .cv .cv__list h4 {
   font-size: 1.2em;
   font-family: "Josefin Sans", sans-serif;
@@ -419,6 +458,7 @@ html {
   -webkit-box-shadow: 0 0 20px #3a4357;
   box-shadow: 0 0 20px #3a4357;
 }
+
 .footer .contact {
   width: 65%;
   display: -webkit-box;
@@ -432,6 +472,7 @@ html {
   align-items: center;
   padding-top: 2em;
 }
+
 .footer .contact a {
   width: 3em;
   height: 3em;
@@ -449,14 +490,17 @@ html {
   align-items: center;
   margin: 0.5em;
 }
+
 .footer .contact a i {
   font-size: 1.5em;
   color: #222733;
   padding: 1em;
 }
+
 .footer .contact a:hover {
   background: #73CCA8;
 }
+
 .footer p {
   color: #DBE8D4;
   margin: 2em 0;
@@ -466,52 +510,42 @@ html {
   .header .header__container h1 {
     font-size: 3.5em;
   }
-
   .header .header__container, .sections .section-container, .cv .cv-container {
     width: 85%;
   }
-
   .header .header__container .container-p, .sections .section-container p {
     width: 90%;
   }
-
   .languages-icons i {
     font-size: 3.5em;
   }
 }
+
 @media screen and (max-width: 450px) {
   .navbar li {
-    padding: 0 0.5em;
+    padding: 0 .5em;
   }
-
   .header .circle-up {
     height: 25em;
   }
-
   .header .header__container h1 {
     font-size: 1.95em;
   }
-
   .header .header__container .container-img {
     width: 8em;
     height: 8em;
   }
-
   .header .header__container .container-p p, #about p {
     font-size: 1.1em;
   }
-
   .languages-icons i {
     font-size: 2.5em;
   }
-
   .cv .cv-container h5 {
     font-size: 1.9em;
   }
-
   .cv .cv__education h4, .cv .cv__experience h4, .cv .cv__list h4 {
     font-size: 1em;
   }
 }
-
 /*# sourceMappingURL=main.css.map */

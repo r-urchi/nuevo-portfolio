@@ -10,11 +10,11 @@ const Footer = () => {
             <div className="footer__border"></div>
             <div className="contact">
                 {contact.map((cont, i) => {
-                    return(<a key={i} target="_blank" href={cont.url}><i className={cont.icon}></i></a>)
+                    return(<a key={i} target="_blank" rel="noreferrer" href={cont.url}><i className={cont.icon}></i></a>)
                 })}
             </div>
 
-            <p>© 2021 Ramón Urchipia</p>
+            <p>© 2022 Ramón Urchipia</p>
         </div>
     )
 }

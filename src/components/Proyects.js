@@ -23,12 +23,12 @@ const Proyects = () => {
                 {proyects.map((proyect, i) => {
                     return(
                         <div key={i} className="proyect">
-                            <a href={proyect.url} target="_blank">
+                            <a href={proyect.url} target="_blank" rel="noreferrer">
                                 <img src={proyect.img} alt=""/>
                             </a>
                             <p>{proyect.languages}</p>
-                            <a target="_blank" href={proyect.url}>{proyect.name}</a>
-                            <a  target="_blank" href={proyect.code}>Ver código</a>
+                            <a target="_blank" rel="noreferrer" href={proyect.url}>{proyect.name}</a>
+                            <a  target="_blank" rel="noreferrer" href={proyect.code}>Ver código</a>
                         </div>
                         )
                     })}
