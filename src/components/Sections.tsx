@@ -9,9 +9,9 @@ const Sections = () => {
     return (
         <div className='sections'>
             <Home />
+            <Proyects />
             <AboutMe />
             <Cv />
-            <Proyects />
         </div>
     )
 }
