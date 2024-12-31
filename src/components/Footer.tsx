@@ -6,6 +6,9 @@ const Footer = () => {
 
     const { contact } = useContext(ProviderContext)
 
+    const today = new Date();
+    const year = today?.getFullYear();
+
     return (
         <div className='footer'>
             <div className='footer__border'></div>
@@ -15,7 +18,7 @@ const Footer = () => {
                 })}
             </div>
 
-            <p>© 2022 Ramón Urchipia</p>
+            <p>© {year?.toString()} Ramón Urchipia</p>
         </div>
     )
 }

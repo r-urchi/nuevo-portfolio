@@ -86,7 +86,7 @@ const ContextProvider: React.FC<ContextProviderProps> = ({ children }) => {
     },
     {
       name: 'Estudio Jurídico DB',
-      url: 'https://www.estudiodiazbarcia.com/',
+      url: 'https://estudiodb.netlify.app/',
       img: 'img/estudio.jpg',
       languages: 'HTML, SASS, JS',
       code: 'https://github.com/r-urchi/Estudio-DB'
@@ -130,6 +130,8 @@ const ContextProvider: React.FC<ContextProviderProps> = ({ children }) => {
     { icon: 'fab fa-sass' },
     { icon: 'fab fa-js' },
     { icon: 'fab fa-react' },
+    { icon: 'fab fa-github' },
+    { icon: 'fab fa-figma' },
   ])
 
   // -------------------------------------------

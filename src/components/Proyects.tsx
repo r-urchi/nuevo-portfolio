@@ -1,24 +1,16 @@
 import React, { useContext } from 'react'
 import { ProviderContext } from '../context/Context'
-import type { Project, Languages } from '../context/Context'
+import type { Project } from '../context/Context'
 
 const Proyects = () => {
 
-    const { proyects, languages } = useContext(ProviderContext)
+    const { proyects } = useContext(ProviderContext)
 
     return (
         <div className='section-container' id='proyects'>
             <h2>PROYECTOS</h2>
             <span></span>
-            <p>Algunos proyectos que desarrolle hasta ahora</p>
-
-            <div className='languages-icons'>
-                {languages?.map((icon: Languages, i: number) => {
-                    return (
-                        <i key={i} className={icon?.icon}></i>
-                    )
-                })}
-            </div>
+            <p>Proyectos que desarrollé hace ya algunos años...</p>
 
             <div className='proyects-container'>
                 {proyects?.map((proyect: Project, i: number) => {

@@ -14,12 +14,10 @@ const Header = () => {
                 </div>
 
                 <div className='container-p'>
-                    <p>Hola! </p>
-                    <p>Soy Ramón, me dedico al diseño y desarrollo web. Me apasiona
-                        mucho el desarrollo de software y aprender nuevas tecnologías, así como afrontar
-                        nuevos desafíos. Soy de aprendizaje rápido y me encanta leer sobre tecnología.
-                    </p>
-                    <p>Te invito ver mis proyectos!</p>
+                    <p>Hola, soy Ramón! <br />
+                        Me dedico al diseño y desarrollo web. En lo personal, me apasiona mucho el desarrollo de software y aprender nuevas tecnologías, así como afrontar nuevos desafíos. <br />
+                        Actualmente me encuentro cursando Tecnicatura en Programación en Instituto Teclab. <br />
+                        Soy de aprendizaje rápido y me encanta leer sobre tecnología.</p>
                 </div>
             </div>
         </div>
