@@ -17,7 +17,8 @@ const Header = () => {
                     <p>Hola, soy Ramón! <br />
                         Me dedico al diseño y desarrollo web. En lo personal, me apasiona mucho el desarrollo de software y aprender nuevas tecnologías, así como afrontar nuevos desafíos. <br />
                         Actualmente me encuentro cursando Tecnicatura en Programación en Instituto Teclab. <br />
-                        Soy de aprendizaje rápido y me encanta leer sobre tecnología.</p>
+                        Soy de aprendizaje rápido y me encanta leer sobre tecnología.
+                    </p>
                 </div>
             </div>
         </div>
