@@ -10,7 +10,7 @@ const Header = () => {
                 <h3>FRONT-END DEVELOPER</h3>
 
                 <div className='container-img'>
-                    <img alt='Ramón Urchipia' src='img/ramon.jpg' />
+                    <img alt='Ramón Urchipia' src='img/ramon.jpeg' />
                 </div>
 
                 <div className='container-p'>
